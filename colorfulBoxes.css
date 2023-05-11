@@ -1,0 +1,54 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: center;
+}
+
+#stripe {
+  display: block;
+  background-color: lightslategrey;
+  padding: 10px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  margin: 0 2%;
+}
+
+#mode {
+  float: right;
+}
+
+#container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.square {
+  width: 30%; 
+  background: purple;
+  padding-bottom: 30%;  
+  float: left;
+  margin: 1%; 
+  border-radius: 15%;
+  transition: background 0.6s; /*when background property changes, transition takes x secs*/
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
